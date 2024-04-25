@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function logout() {
-    // Eliminar el userType y userId del localStorage
+    
     localStorage.removeItem('userType');
     localStorage.removeItem('userId');
     // Redirigir al index del login
